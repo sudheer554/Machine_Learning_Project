@@ -7,24 +7,23 @@
 3. [VS Code IDE](https://code.visualstudio.com/download)
 4. [GIT Cli](https://git-scm.com/downloads)
 
-Creating conda environment
+### Creating conda environment
 
-# '-p' will create enveronment here it self, so you can del 
-conda create -p <env_name> python==3.7 -y (here 'venv' used) 
-''''''
-''''''
-conda activate venv/
-''''''
+### '-p' will create enveronment here it self, so you can del 
 
-# Create a requirements.txt file
+''conda create -p <env_name> python==3.7 -y (here 'venv' used)''
+
+``conda activate venv/``
+
+### Create a requirements.txt file
 
 Add 'Flask' in requirements.txt 
 Flask
 
-pip install -r requirements.txt
+``pip install -r requirements.txt``
 
-# run 
-python app.py
+* run 
+``python app.py``
 
 >Note: To Add files to git staging area
 git add <file_name or . >  '.' will add all file )
