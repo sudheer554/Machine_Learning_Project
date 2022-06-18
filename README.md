@@ -11,7 +11,7 @@
 
 ### '-p' will create enveronment here it self, so you can del 
 
-''conda create -p <env_name> python==3.7 -y (here 'venv' used)''
+### ``conda create -p <env_name> python==3.7 -y ``    (here 'venv' used)''
 
 ``conda activate venv/``
 
@@ -26,20 +26,20 @@ Flask
 ``python app.py``
 
 >Note: To Add files to git staging area
-git add <file_name or . >  '.' will add all file )
+``git add <file_name or . > `` '.' will add all file )
 
 >Note: To ignore files or folders from git we can write those file/folder names in '.gitignore' file
 
-git log   (to check all versions maintained by git)
+``git log ``        (to check all versions maintained by git)
 
-git status 
+``git status ``
 
-git commit -m "meaaage"  (To create version/commit all git)
+``git commit -m "meaaage"``    (To create version/commit all git)
 
 >Note: 'origin 'is a variable clone URL will store in this origin variable 
-git remote -v (To check remote 'URL or orgin')
+``git remote -v ``      (To check remote 'URL or orgin')
 
-git branch     (To check branch name)
+``git branch ``    (To check branch name)
 
-git push origin main
+``git push origin main``
 
