@@ -50,7 +50,7 @@ git log
 
 ```
 git status
-
+```
 
 To create version/commit all git
 ```
