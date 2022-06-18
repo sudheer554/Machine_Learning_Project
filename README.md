@@ -18,7 +18,7 @@ conda create -p <env_name> python==3.7 -y
 conda activate venv/
 ```
 
-* Create a requirements.txt file
+### Create a requirements.txt file
 
 Add 'Flask' in requirements.txt 
 ```
@@ -29,7 +29,7 @@ Flask
 pip install -r requirements.txt
 ```
 
-Run
+### Run
 ```
 python app.py
 ```
