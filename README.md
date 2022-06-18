@@ -9,37 +9,66 @@
 
 ### Creating conda environment
 
-### '-p' will create enveronment here it self, so you can del 
+>Note: '-p' will create enveronment here it self, so you can del from here it self here we have used 'venv' name
+```
+conda create -p <env_name> python==3.7 -y
+```
+    
+```
+conda activate venv/
+```
 
-### ``conda create -p <env_name> python==3.7 -y ``    (here 'venv' used)''
-
-``conda activate venv/``
-
-### Create a requirements.txt file
+* Create a requirements.txt file
 
 Add 'Flask' in requirements.txt 
+```
 Flask
+```
 
-``pip install -r requirements.txt``
+```
+pip install -r requirements.txt
+```
 
-* run 
-``python app.py``
+Run
+```
+python app.py
+```
 
->Note: To Add files to git staging area
-``git add <file_name or . > `` '.' will add all file )
+
+To Add files to git staging area '.' will add all file
+```
+git add <file_name or . > 
+```
 
 >Note: To ignore files or folders from git we can write those file/folder names in '.gitignore' file
 
-``git log ``        (to check all versions maintained by git)
 
-``git status ``
+To check all versions maintained by git
+```
+git log
+```        
 
-``git commit -m "meaaage"``    (To create version/commit all git)
+```
+git status
+
+
+To create version/commit all git
+```
+git commit -m "meaaage"
+```
 
 >Note: 'origin 'is a variable clone URL will store in this origin variable 
-``git remote -v ``      (To check remote 'URL or orgin')
 
-``git branch ``    (To check branch name)
+To check remote 'URL or orgin'
+```
+git remote -v 
+```
+
+
+To check branch name
+```
+git branch 
+```
 
 ```
 git push origin main
