@@ -5,7 +5,7 @@ app=Flask(__name__)
 
 @app.route("/",methods=['GET','POST'])
 def index():
-    return "bhargavi,swetha are my students"
+    return "this is sudheer from hyd"
 
 
 if __name__=="__main__":
